@@ -1,0 +1,53 @@
+.Container{
+    width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://media.discordapp.net/attachments/935131235230023730/1130396426283798588/offergif-1.gif?width=1440&height=600")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Wrapper{
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+    
+}
+.title{
+    font-size: 24px;
+    font-weight: 300;
+  
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+}
+.login_button{
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    &:disabled {
+      color: green;
+      cursor: not-allowed;
+    }
+}
+.Input{
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+}
+@media screen and (max-width: 415px) {
+    .Wrapper{
+        width: 75%;
+    }
+  }

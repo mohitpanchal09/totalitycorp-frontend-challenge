@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    height: calc(100vh - 50px);
+
+}
+
+.content{
+    overflow-y: auto;
+    flex: 4;
+}
