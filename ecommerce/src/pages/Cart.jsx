@@ -4,6 +4,8 @@ import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { useDispatch } from "react-redux";
+
 import { mobile } from "../responsive";
 import StripeCheckout from "react-stripe-checkout";
 import { useEffect, useState } from "react";
@@ -12,7 +14,7 @@ import { Link } from "react-router-dom";
 import { publicRequest, userRequest } from "../requestMethods";
 import { Navigate, useNavigate } from "react-router";
 import Loader from "../components/Loader";
-
+import { clearCart } from "../redux/cartRedux";
 const Container = styled.div``;
 
 const Wrapper = styled.div`
@@ -173,7 +175,9 @@ const LoaderContainer = styled.div`
 const Cart = () => {
   const [isCheckingOut, setIsCheckingOut] = useState(false);
   const cart = useSelector((state) => state.cart);
+  const state = useSelector((state) => state.cart);
   // console.log(cart);
+  const dispatch = useDispatch();
   const KEY = process.env.REACT_APP_STRIPE;
   const currentUser = useSelector((state) => state.user.currentUser);
   const TOKEN = currentUser?.accessToken;
@@ -244,7 +248,9 @@ const Cart = () => {
             <TopText>Shopping Bag(2)</TopText>
             <TopText>Your Wishlist (0)</TopText>
           </TopTexts>
-          <TopButton type="filled">CHECKOUT NOW</TopButton>
+          <TopButton type="filled" onClick={() => dispatch(clearCart())}>
+            CLEAR CART
+          </TopButton>
         </Top>
         <Bottom>
           <Info>
