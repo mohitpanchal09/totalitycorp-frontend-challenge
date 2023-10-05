@@ -203,7 +203,7 @@ const Cart = () => {
     }
 
     fetch(
-      "https://switch-backend-v1.vercel.app/api/checkout/create-checkout-session",
+      "https://totalitycorp-backend.vercel.app/api/checkout/create-checkout-session",
       {
         method: "POST",
         headers: {

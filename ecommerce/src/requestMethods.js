@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://switch-backend-v1.vercel.app/api/";
+const BASE_URL = "https://totalitycorp-backend.vercel.app/api/";
 // const TOKEN =
 //   JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser
 //     .accessToken || "";
