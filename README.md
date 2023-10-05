@@ -1,4 +1,4 @@
-# Totality Corp Frontend Challenge
+<img width="1440" alt="Screenshot 2023-10-05 at 12 59 10 PM" src="https://github.com/mohitpanchal09/totalitycorp-frontend-challenge/assets/90472961/65f0b689-60a2-4159-a72a-e5a40e1be3cf"># Totality Corp Frontend Challenge
 
 Welcome to my submission for the Totality Corp Frontend Developer Assignment. In this project, I have developed an intermediate-level e-commerce website using React, following the provided guidelines.
 
@@ -10,12 +10,12 @@ Welcome to my submission for the Totality Corp Frontend Developer Assignment. In
 
 - **Shopping Cart:** 
   - Implemented a cart section to display the added products, quantities, and total cost.
-  - Allow users to increase, decrease, or remove items from the cart.
+  - Remove items from the cart.
   - Display real-time updates of the cart total and item count.
 
 - **Checkout:** 
   - Implemented a checkout process that calculates the total cost of items in the cart.
-  - Allow users to enter shipping information and payment details.
+  - Allow users to make payments for their purchases.
 
 - **Payment Gateway Integration with Stripe:**
   - Integrated the Stripe payment gateway to facilitate secure online payments.
@@ -33,15 +33,14 @@ Welcome to my submission for the Totality Corp Frontend Developer Assignment. In
 
 - React
 - Redux for state management
+- MongoDb for database
 - Stripe for payment gateway integration
-- [Any 3rd party UI library used, e.g., MUI, ChakraUI, TailwindCSS]
-- [If used, mention TypeScript]
-
+  
 ## State Management with Redux
 
 - **Redux**: 
   - I have implemented state management using Redux to efficiently manage the application's global state.
-  - Redux helps in managing complex application states, such as user authentication, shopping cart data, and payment details.
+  - Redux helps in managing complex application states, such as user authentication, shopping cart data.
 
 ### User Authentication and JWT Token
 
@@ -53,13 +52,6 @@ Welcome to my submission for the Totality Corp Frontend Developer Assignment. In
   - Upon successful authentication, the user receives a JWT (JSON Web Token) for secure and stateless authentication.
   - The JWT token is stored in the browser's local storage for persistence across sessions.
   - Security measures have been taken to ensure sensitive data is securely stored and managed.
-
-## Payment Gateway Integration with Stripe
-
-- **Stripe Integration**: 
-  - I have seamlessly integrated the Stripe payment gateway for processing online payments.
-  - Users can securely make payments for their orders using credit/debit cards.
-  - The integration follows best practices for handling payment data securely.
 
 ## Local Storage
 
@@ -80,7 +72,7 @@ Welcome to my submission for the Totality Corp Frontend Developer Assignment. In
 
 ## Live Demo
 
-You can access the live demo of this project [here](link-to-your-deployed-application).
+You can access the live demo of this project [here]([link-to-your-deployed-application](https://totalitycorp--frontend--challenge.vercel.app/)).
 
 ## Screenshots
 
