@@ -88,7 +88,9 @@ Before you begin, ensure you have met the following requirements:
 ## Usage
 1. start the development server:
 - npm start
-2. Explore the Application:
+2. Please replace `your_stripe_api_key` actual key.
+- REACT_APP_STRIPE_KEY=your_stripe_api_key
+3. Explore the Application:
 
 Navigate through the e-commerce website to view products.
 Add products to your cart, increase or decrease quantities, and remove items.
