@@ -68,7 +68,32 @@ Welcome to my submission for the Totality Corp Frontend Developer Assignment. In
 
 ## Installation and Usage
 
-[Provide instructions on how to clone and run your project locally, including any dependencies and setup steps.]
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js: Make sure you have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/yourusername/totalitycorp-frontend-challenge.git
+   
+2. Navigate to the project directory:
+-  cd totalitycorp-frontend-challenge
+3. Install dependencies:
+-  npm install
+## Usage
+1. start the development server:
+- npm start
+2. Explore the Application:
+
+Navigate through the e-commerce website to view products.
+Add products to your cart, increase or decrease quantities, and remove items.
+Proceed to checkout to simulate the payment process (if you have set up Stripe).
+You can also test user authentication features if implemented.
 
 ## Live Demo
 
