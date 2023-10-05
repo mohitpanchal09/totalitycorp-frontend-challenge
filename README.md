@@ -72,7 +72,7 @@ Welcome to my submission for the Totality Corp Frontend Developer Assignment. In
 
 ## Live Demo
 
-You can access the live demo of this project [here]([link-to-your-deployed-application](https://totalitycorp--frontend--challenge.vercel.app/)).
+You can access the live demo of this project [https://totalitycorp--frontend--challenge.vercel.app/].
 
 ## Screenshots
 
