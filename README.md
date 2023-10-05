@@ -101,10 +101,6 @@ You can also test user authentication features if implemented.
 
 -You can access the live demo of this project: [https://totalitycorp--frontend--challenge.vercel.app/].
 
-## Screenshots
-
-[You can include screenshots of your project here to showcase the UI and functionality.]
-
 ## Feedback and Contact
 
 I welcome any feedback or questions regarding this project. Please feel free to reach out to me:
