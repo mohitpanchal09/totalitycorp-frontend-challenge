@@ -8,6 +8,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import "./Orders.css";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
+import Newsletter from "../Newsletter";
 
 export default function Orders() {
   const location = useLocation();
@@ -73,12 +74,13 @@ export default function Orders() {
                 checkboxSelection
               />
             ) : (
-              <h4 style={{ margin: "auto" }}>No orders</h4>
+              <h4 style={{ margin: " 50px auto" }}>No orders</h4>
             )}
           </div>
         )}
       </div>
       {/* <div style={{ position: "absolute", bottom: "0" }}> */}
+      <Newsletter />
       <Footer />
       {/* </div> */}
       {isSuccess === "true" && <p>Your order was successful!</p>}

@@ -13,6 +13,7 @@ import { mobile } from "../responsive";
 const Container = styled.div`
   display: flex;
   ${mobile({ flexDirection: "column" })}
+  flex-wrap: wrap;
 `;
 
 const Left = styled.div`

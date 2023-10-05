@@ -2,8 +2,8 @@ import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
-import { mobile } from "../responsive";
-
+import { mobile, mobile2 } from "../responsive";
+import { FaUserCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { logout } from "../redux/userRedux";
 import { useDispatch, useSelector } from "react-redux";
@@ -25,7 +25,7 @@ const Left = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
-  ${mobile({ display: "none" })}
+  ${mobile2({ display: "none" })}
 `;
 
 const Language = styled.span`
@@ -142,7 +142,6 @@ const Navbar = () => {
                 <ShoppingCartOutlined />
               </Badge>
             </MenuItem>
-            <MenuItem>{user ? user.others.username : <></>}</MenuItem>
           </Link>
         </Right>
       </Wrapper>
